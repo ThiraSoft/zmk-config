@@ -42,9 +42,9 @@
 
   layer3 {
           bindings = <
-          &kp AT_SIGN        &kp HASH    &kp LS(MINUS)   &kp LA(N5)       &kp LA(MINUS)       &kp N8            &kp KP_SLASH        &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_ASTERISK   &kp BACKSPACE 
-          &kp LS(LA(DOT))    &kp EQUAL   &none           &kp N5           &kp MINUS           &kp N1            &kp KP_MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS       &kp PERCENT
-          &kp LEFT_CONTROL   &kp LT      &kp GT          &kp LS(LA(N5))   &kp LS(LA(MINUS))   &kp LS(LA(L))     &kp LS(COMMA)       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp EQUAL         &kp ENTER 
+          &kp GRAVE          &kp LS(GRAVE)   &kp LS(EQUAL)   &kp LA(N5)       &kp LA(MINUS)       &kp N8            &kp KP_SLASH        &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_ASTERISK   &kp BACKSPACE 
+          &kp LS(LA(DOT))    &kp EQUAL       &none           &kp N5           &kp MINUS           &kp N1            &kp KP_MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS       &kp PERCENT
+          &kp LEFT_CONTROL   &kp GRAVE       &kp LS(GRAVE)   &kp LS(LA(N5))   &kp LS(LA(MINUS))   &kp LS(LA(L))     &kp LS(COMMA)       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp EQUAL         &kp ENTER 
                                                                                           &trans &mo 4 &trans      &trans &kp KP_N0 &kp KP_N0
           >;
   };
