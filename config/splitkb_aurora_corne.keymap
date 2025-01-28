@@ -42,8 +42,8 @@
 
   layer3 {
           bindings = <
-          &kp GRAVE          &kp LS(GRAVE)   &kp LS(EQUAL)   &kp LA(N5)       &kp LA(MINUS)       &kp N8            &kp KP_SLASH        &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_ASTERISK   &kp BACKSPACE 
-          &kp LS(LA(DOT))    &kp EQUAL       &none           &kp N5           &kp MINUS           &kp N1            &kp KP_MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS       &kp PERCENT
+          &kp KP_AT          &kp LS(KP_AT)   &kp LS(EQUAL)   &kp LA(N5)       &kp LA(MINUS)       &kp N8            &kp KP_SLASH        &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_ASTERISK   &kp BACKSPACE 
+          &kp LS(LA(DOT))    &kp EQUAL       &none           &kp N5           &kp MINUS           &kp N1            &kp KP_MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS       &kp DQT
           &kp LEFT_CONTROL   &kp GRAVE       &kp LS(GRAVE)   &kp LS(LA(N5))   &kp LS(LA(MINUS))   &kp LS(LA(L))     &kp LS(COMMA)       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp EQUAL         &kp ENTER 
                                                                                           &trans &mo 4 &trans      &trans &kp KP_N0 &kp KP_N0
           >;
@@ -61,7 +61,7 @@
   layer5 {
           bindings = <
           &kp F1             &kp F2   &kp F3         &kp F4            &kp F5        &kp F6                     &kp F7              &kp F8             &kp F9            &kp F10               &kp F11           &kp F12   
-          &none              &none    &kp LEFT_ALT   &kp LG(END)       &kp LA(TAB)   &kp LG(RIGHT_BRACKET)      &kp C_VOLUME_DOWN   &kp C_PLAY_PAUSE   &kp C_VOLUME_UP   &kp C_AL_CALCULATOR   &kp PRINTSCREEN   &trans 
+          &none              &none    &kp LEFT_ALT   &kp LG(END)       &kp LA(TAB)   &kp LG(RIGHT_BRACKET)      &kp C_VOLUME_DOWN   &kp C_PLAY_PAUSE   &kp C_VOLUME_UP   &kp C_AL_CALCULATOR   &kp LS(LA(N5))    &trans 
           &kp LEFT_CONTROL   &none    &none          &kp RC(RS(TAB))   &kp LC(TAB)   &none                      &none               &none              &none             &kp INSERT            &kp CAPSLOCK      &kp KP_NUMLOCK 
                                                                         &kp LEFT_GUI &kp LS(LA(F4)) &none       &to 0   &to 1   &none
           >;
