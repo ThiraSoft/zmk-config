@@ -65,7 +65,7 @@
   layer5 {
           bindings = <
           &kp F1             &kp F2   &kp F3         &kp F4            &kp F5        &kp F6                     &kp F7              &kp F8             &kp F9            &kp F10               &kp F11                   &kp F12   
-          &none              &none    &kp LEFT_ALT   &kp LG(END)       &kp LA(TAB)   &kp LG(RIGHT_BRACKET)      &kp C_VOLUME_DOWN   &kp C_PLAY_PAUSE   &kp C_VOLUME_UP   &kp C_AL_CALCULATOR   &kp LGUI(LS(NUMBER_5))    &trans 
+          &none              &none    &kp LEFT_ALT   &kp LG(END)       &kp LA(TAB)   &kp LG(RIGHT_BRACKET)      &kp C_VOLUME_DOWN   &kp C_PLAY_PAUSE   &kp C_VOLUME_UP   &kp C_AL_CALCULATOR   &kp LG(LS(NUMBER_5))      &trans 
           &kp LEFT_CONTROL   &none    &none          &kp RC(RS(TAB))   &kp LC(TAB)   &none                      &none               &none              &none             &kp INSERT            &kp CAPSLOCK              &kp KP_NUMLOCK 
                                                                         &kp LEFT_GUI &kp LS(LA(F4)) &none       &to 0   &to 1   &none
           >;
