@@ -27,7 +27,7 @@
           &kp ESCAPE        &kp N1   &kp N2   &kp W    &kp N3   &kp N4        &kp Y   &kp U   &kp I       &kp O     &kp P         &kp BACKSPACE
           &kp F             &kp N5   &kp A    &kp S    &kp D    &kp N6        &kp H   &kp J   &kp K       &kp L     &kp SEMICOLON &lt 5 ENTER   
           &kp LEFT_CONTROL  &kp N7   &kp N8   &kp N9   &kp N0   &kp MINUS     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH     &kp ENTER 
-                                            &kp TAB   &kp LEFT_SHIFT          &kp SPACE &trans &mo 2 &trans
+                            &kp TAB  &kp LEFT_SHIFT  &kp SPACE                &trans  &mo 2   &trans
           >;
   };
 
@@ -44,7 +44,7 @@
           bindings = <
           &kp GRAVE          &none                  &none   &kp LA(N5)       &kp LA(MINUS)       &kp N8            &kp KP_SLASH        &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_ASTERISK   &kp BACKSPACE 
           &kp LS(LA(DOT))    &kp EQUAL              &none   &kp N5           &kp MINUS           &kp N1            &kp KP_MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS       &kp LS(LA(SQT))
-          &kp LEFT_CONTROL   &kp NON_US_BACKSLASH   &none   &kp LS(LA(N5))   &kp LS(LA(MINUS))   &kp LS(LA(L))     &kp LS(LA(COMMA))   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp EQUAL         &kp ENTER 
+          &kp LEFT_CONTROL   &kp NON_US_BACKSLASH   &none   &kp LS(LA(N5))   &kp LS(LA(MINUS))   &kp LS(LA(L))     &kp LS(COMMA)   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp EQUAL         &kp ENTER 
                                                                                           &trans &mo 4 &trans      &trans &kp KP_N0 &kp KP_N0
           >;
   };
