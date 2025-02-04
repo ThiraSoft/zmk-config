@@ -57,9 +57,9 @@
 
   layer4 {
           bindings = <
-          &none   &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &bt BT_CLR 
-          &none   &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &none 
-          &none   &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &none 
+          &soft_off &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &bt BT_CLR 
+          &none     &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &none 
+          &none     &none   &none   &none   &none   &none       &none   &none   &none   &none   &none   &none 
                                       &trans &trans &trans    &trans  &trans  &kp RIGHT_ALT
           >;
   };
